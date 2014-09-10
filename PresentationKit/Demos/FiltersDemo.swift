@@ -4,15 +4,14 @@ typealias Filter = String -> String
 
 func caesarsCypher(shift: Int) -> Filter {
     return { input in
-        var result = ""
-        typealias US = UnicodeScalar
-        let char = US.convertFromExtendedGraphemeClusterLiteral
-        for c in input {
-            let value = char(String(c)).value + shift
-            let newChar = Character(UnicodeScalar(value))
-            result += String(newChar)
+        var result = NSMutableString()
+        var nsInput = input as NSString
+        for c in 0..<nsInput.length {
+            let value = nsInput.characterAtIndex(c) + shift
+            let newChar = NSString(format: "%C", value)
+            result.appendString(newChar)
         }
-        return result
+        return result as String
     }
 }
 
@@ -34,7 +33,6 @@ func ---<> (filter1: Filter, filter2: Filter) -> Filter {
 }
 
 
-
 public class FiltersDemo: BaseDemo {
 
     override public var description : String {
@@ -50,6 +48,7 @@ public class FiltersDemo: BaseDemo {
         let input = "Lorem ipsum dolor sit amet und so weiter"
         let result = filter(input)
         
-        println("\(input) -> \(result)")
+        println("\(input) ->")
+        println("\(result)")
     }
 }

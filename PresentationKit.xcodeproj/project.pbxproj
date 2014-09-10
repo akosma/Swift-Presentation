@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3A1240E819BF0A4100D826C9 /* ObjCDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1240E719BF0A4100D826C9 /* ObjCDemo.swift */; };
 		3A14622319BEF7A800806299 /* FiltersDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A14622219BEF7A800806299 /* FiltersDemo.swift */; };
-		3A3ED0D619BEFA6D0063B5B9 /* UnicodeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3ED0D519BEFA6D0063B5B9 /* UnicodeDemo.swift */; };
 		3A3ED0D819BEFAB10063B5B9 /* CurriedDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3ED0D719BEFAB10063B5B9 /* CurriedDemo.swift */; };
 		3A3ED0DA19BEFC080063B5B9 /* SetsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3ED0D919BEFC080063B5B9 /* SetsDemo.swift */; };
 		3A3ED0DC19BEFE600063B5B9 /* JavaScriptDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3ED0DB19BEFE600063B5B9 /* JavaScriptDemo.swift */; };
@@ -31,7 +30,7 @@
 		3A47CE6719BEDD240061C27B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "/Applications/Xcode6-Beta7.app/Contents/SharedFrameworks";
+			dstPath = "/Applications/Xcode-Beta.app/Contents/SharedFrameworks";
 			dstSubfolderSpec = 0;
 			files = (
 				3A47CE6819BEDD350061C27B /* PresentationKit.framework in CopyFiles */,
@@ -41,7 +40,7 @@
 		3AE956E519BE43B300C9BDCB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "/Applications/Xcode6-Beta7.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks";
+			dstPath = "/Applications/Xcode-Beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks";
 			dstSubfolderSpec = 0;
 			files = (
 				3AE956E619BE43C100C9BDCB /* PresentationKit.framework in CopyFiles */,
@@ -72,7 +71,6 @@
 		3A2A6D9B19BE45B500BFFD02 /* Sets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sets.playground; sourceTree = "<group>"; };
 		3A2A6D9C19BE45B500BFFD02 /* Trololol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Trololol.playground; sourceTree = "<group>"; };
 		3A2A6D9D19BE45B500BFFD02 /* Vector.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Vector.playground; sourceTree = "<group>"; };
-		3A3ED0D519BEFA6D0063B5B9 /* UnicodeDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeDemo.swift; sourceTree = "<group>"; };
 		3A3ED0D719BEFAB10063B5B9 /* CurriedDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurriedDemo.swift; sourceTree = "<group>"; };
 		3A3ED0D919BEFC080063B5B9 /* SetsDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetsDemo.swift; sourceTree = "<group>"; };
 		3A3ED0DB19BEFE600063B5B9 /* JavaScriptDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaScriptDemo.swift; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				3A83C32519BEF5D900721019 /* AngryDemo.swift */,
 				3A83C32619BEF5D900721019 /* NinetyNineBeersDemo.swift */,
 				3A14622219BEF7A800806299 /* FiltersDemo.swift */,
-				3A3ED0D519BEFA6D0063B5B9 /* UnicodeDemo.swift */,
 				3A3ED0D719BEFAB10063B5B9 /* CurriedDemo.swift */,
 				3A3ED0D919BEFC080063B5B9 /* SetsDemo.swift */,
 				3A3ED0DB19BEFE600063B5B9 /* JavaScriptDemo.swift */,
@@ -285,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3ED0DE19BEFF810063B5B9 /* MathDemo.swift in Sources */,
-				3A3ED0D619BEFA6D0063B5B9 /* UnicodeDemo.swift in Sources */,
 				3A1240E819BF0A4100D826C9 /* ObjCDemo.swift in Sources */,
 				3A14622319BEF7A800806299 /* FiltersDemo.swift in Sources */,
 				3AE956D719BE430900C9BDCB /* Presentation.swift in Sources */,
@@ -338,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -377,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -398,6 +394,7 @@
 				INFOPLIST_FILE = PresentationKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -417,6 +414,7 @@
 				INFOPLIST_FILE = PresentationKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
