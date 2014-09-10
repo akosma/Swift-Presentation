@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A1240E819BF0A4100D826C9 /* ObjCDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1240E719BF0A4100D826C9 /* ObjCDemo.swift */; };
 		3A14622319BEF7A800806299 /* FiltersDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A14622219BEF7A800806299 /* FiltersDemo.swift */; };
+		3A32D67B19C028FD00843D9C /* UnicodeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A32D67A19C028FD00843D9C /* UnicodeDemo.swift */; };
 		3A3ED0D819BEFAB10063B5B9 /* CurriedDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3ED0D719BEFAB10063B5B9 /* CurriedDemo.swift */; };
 		3A3ED0DA19BEFC080063B5B9 /* SetsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3ED0D919BEFC080063B5B9 /* SetsDemo.swift */; };
 		3A3ED0DC19BEFE600063B5B9 /* JavaScriptDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3ED0DB19BEFE600063B5B9 /* JavaScriptDemo.swift */; };
@@ -71,6 +72,7 @@
 		3A2A6D9B19BE45B500BFFD02 /* Sets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sets.playground; sourceTree = "<group>"; };
 		3A2A6D9C19BE45B500BFFD02 /* Trololol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Trololol.playground; sourceTree = "<group>"; };
 		3A2A6D9D19BE45B500BFFD02 /* Vector.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Vector.playground; sourceTree = "<group>"; };
+		3A32D67A19C028FD00843D9C /* UnicodeDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeDemo.swift; sourceTree = "<group>"; };
 		3A3ED0D719BEFAB10063B5B9 /* CurriedDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurriedDemo.swift; sourceTree = "<group>"; };
 		3A3ED0D919BEFC080063B5B9 /* SetsDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetsDemo.swift; sourceTree = "<group>"; };
 		3A3ED0DB19BEFE600063B5B9 /* JavaScriptDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaScriptDemo.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				3A3ED0DD19BEFF810063B5B9 /* MathDemo.swift */,
 				3A3ED0DF19BF018C0063B5B9 /* GenericsDemo.swift */,
 				3A1240E719BF0A4100D826C9 /* ObjCDemo.swift */,
+				3A32D67A19C028FD00843D9C /* UnicodeDemo.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				3A83C32819BEF5D900721019 /* AngryDemo.swift in Sources */,
 				3A3ED0DC19BEFE600063B5B9 /* JavaScriptDemo.swift in Sources */,
 				3A83C32719BEF5D900721019 /* ActiveRecordDemo.swift in Sources */,
+				3A32D67B19C028FD00843D9C /* UnicodeDemo.swift in Sources */,
 				3A3ED0E019BF018C0063B5B9 /* GenericsDemo.swift in Sources */,
 				3AE956D519BE430900C9BDCB /* BaseDemo.swift in Sources */,
 				3A83C32919BEF5D900721019 /* NinetyNineBeersDemo.swift in Sources */,

@@ -31,6 +31,7 @@ public class Presentation : NSObject, SequenceType {
         "angry": AngryDemo.self,
         "99b":   NinetyNineBeersDemo.self,
         "filt":  FiltersDemo.self,
+        "noah":  UnicodeDemo.self,
         "curry": CurriedDemo.self,
         "sets":  SetsDemo.self,
         "js":    JavaScriptDemo.self,
