@@ -5,28 +5,29 @@ typealias Filter = String -> String
 func caesarsCypher(shift: Int) -> Filter {
     return { input in
         println("caesarsCypher")
-        var result = ""
-        let char = UnicodeScalar.convertFromExtendedGraphemeClusterLiteral
-        for c in input {
-            let value = char(String(c)).value + shift
-            let newChar = Character(UnicodeScalar(value))
-            result += String(newChar)
+        var result = NSMutableString()
+        var nsInput = input as NSString
+        for c in 0..<nsInput.length {
+            let value = nsInput.characterAtIndex(c) + shift
+            let newChar = NSString(format: "%C", value)
+            result.appendString(newChar)
         }
-        return result
+        return result as String
+        
     }
 }
 
 func caesarsDecypher(shift: Int) -> Filter {
     return { input in
         println("caesarsDecypher")
-        var result = ""
-        let char = UnicodeScalar.convertFromExtendedGraphemeClusterLiteral
-        for c in input {
-            let value = char(String(c)).value - shift
-            let newChar = Character(UnicodeScalar(value))
-            result += String(newChar)
+        var result = NSMutableString()
+        var nsInput = input as NSString
+        for c in 0..<nsInput.length {
+            let value = nsInput.characterAtIndex(c) - shift
+            let newChar = NSString(format: "%C", value)
+            result.appendString(newChar)
         }
-        return result
+        return result as String
     }
 }
 
