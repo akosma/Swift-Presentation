@@ -1,4 +1,4 @@
-# PresentationKit
+# Swift Presentation
 
 This project generates and deploys a Cocoa framework built with Swift,
 which can be used from the command-line REPL or from an Xcode Playground
@@ -35,28 +35,21 @@ Explanation of the code:
 - The `URL` and `tweet` properties return associated NSURL instances
   that can be displayed right from the Playground itself.
 
+## Playgrounds
+
+The `Playgrounds` folder contains a few Swift Playgrounds for Xcode 6,
+showing several different features of the language, useful for learning.
+
 ## Source Code
 
 The `sourceCode` property returns the associated source code for the
 demo that is being shown. This source code is generated at compile time
 by the script `generate_html.sh`.
 
-This script requires Pygments 2.0pre to be installed in the local system:
-
-    Pygments version 2.0pre, (c) 2006-2014 by Georg Brandl.
-
-When this project was created, the version of Pygments available
-through PIP was 1.6; however, version 2.0 (including Swift support)
-must be installed manually, downloading the code from the [main
-Pygments repository][pygments] and running the commands
-
-    sudo ./setup.py build
-    sudo ./setup.py install
-
+This script requires Pygments 2.0 or later to be installed in the local
+system; use the `sudo easy_install Pygments` command for that.
 
 ## License
 
 See the LICENSE file for details.
-
-[pygments]: https://bitbucket.org/birkenfeld/pygments-main/downloads
 
